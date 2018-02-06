@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-.header {
+header {
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
 	font-family: Verdana;
 	font-size: 14px;
@@ -30,6 +31,34 @@
 	align-items: center;
 }
 
+nav span {
+	padding: 20px 10px;
+}
+
 nav a {
 	color: black;
+}
+
+.main {
+	display: flex;
+	justify-content: space-around;
+}
+
+.main.column1 {
+	display: flex;
+	width: 630px;
+}
+
+.main.column2 {
+	display: flex;
+	width: 300px;
+}
+
+.main.column3 {
+	display: flex;
+	width: 240px;
+}
+
+.border {
+	border: 1px solid black;
 }
