@@ -55,9 +55,10 @@ nav a {
 
 .column1 {
 	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
+	flex-direction: horizontal;
+	flex-wrap: wrap;
 	width: 630px;
+	margin: 15px;
 }
 
 .column2 {
@@ -65,6 +66,7 @@ nav a {
 	justify-content: flex-start;
 	flex-direction: column;
 	width: 300px;
+	margin: 15px;
 }
 
 .column3 {
@@ -72,6 +74,7 @@ nav a {
 	justify-content: flex-start;
 	flex-direction: column;
 	width: 240px;
+	margin: 15px;
 }
 
 .articleTextFormatting {
@@ -129,13 +132,49 @@ nav a {
 }
 
 .main {
-	display: flex;
+	display: inline-flex;
 	justify-content: space-around;
 }
 
+.stories {
+	display: flex;
+	justify-content: space-between;
+}
+
+.story {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	margin: 15px;
+}
+
+#newsBites {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 20px;
+}
+
+div#newsBites h2 {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.bite {
+	background-color: whitesmoke;
+	font-family: Verdana;
+	font-size: 12px;
+	color: dimgray;
+	border-bottom: 1px solid black;
+	padding: 5px;
+}
+
+/*
 .border {
 	border: 1px solid black;
 }
+
 
 .bottomPadding {
 	padding-bottom: 20px;
@@ -144,3 +183,5 @@ nav a {
 .topPadding {
 	padding-top: 20px;
 }
+
+*/
