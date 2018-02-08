@@ -170,6 +170,36 @@ div#newsBites h2 {
 	padding: 5px;
 }
 
+#footer {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: mediumaquamarine;
+	margin: auto;
+	font-family: verdana;
+	font-size: 12px;
+	width: 100%;
+    height: 325px;
+}
+
+#myTimes {
+	font-family: Georgia;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+
+
+#navLine {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+}
+
+
+
 /*
 .border {
 	border: 1px solid black;
